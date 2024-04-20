@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Weather Map</title>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="web">
+            <div class="overlap-wrapper">
+                <div class="overlap" id="map">
+                    <div class="navbar">
+                        <div class="more">
+                            <a target="_blank" href="saved.html"><img class="line" id="moreicon" src="img/3917762.png" /></a>
+                        </div>
+                        <div class="login">
+                          <a href="register/register.html" title="log in icons"><img class="line" src="img/log-in.png"></a>
+                        </div>
+                        <div class="user">
+                            <div class="overlap-group">
+                                <img class="male-user" src="img/Male User.png" />
+                                <div class="text-wrapper">User Name</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="info-info">
+                          <div class="info-city-name">
+                            <span class="info-text"><span></span></span>
+                            <img
+                              src="public/external/placemarker1613-suikx-200h.png"
+                              alt="PlaceMarker1613"
+                              class="info-place-marker"
+                            />
+                          </div>
+                          <img
+                            src="public/external/icon1619-m57h.svg"
+                            alt="icon1619"
+                            class="info-icon"
+                          />
+                          <span class="info-text02"><span></span></span>
+                          <div class="info-first">
+                            <div class="info-group53">
+                              <div class="info-icon1">
+                                <div class="info-group">
+                                  <img
+                                    src="public/external/vector794-rxoq.svg"
+                                    alt="Vector794"
+                                    class="info-vector"
+                                  />
+                                </div>
+                              </div>
+                              <span class="info-text04"><span>State</span></span>
+                            </div>
+                            <span class="info-text06"><span></span></span>
+                          </div>
+                          <div class="info-third">
+                            <div class="info-group531">
+                              <img
+                                src="public/external/rainsensor7124-8zh7-200h.png"
+                                alt="RainSensor7124"
+                                class="info-rain-sensor"
+                              />
+                              <span class="info-text08"><span>Humidity</span></span>
+                            </div>
+                            <span class="info-text10"><span></span></span>
+                          </div>
+                          <div class="info-second">
+                            <div class="info-group54">
+                              <div class="info-frame">
+                                <div class="info-windy">
+                                  <div class="info-group1">
+                                    <div>
+                                      <div class="info-group2">
+                                        <img
+                                          src="public/external/oval67104-jayi.svg"
+                                          alt="Oval67104"
+                                          class="info-oval6"
+                                        />
+                                      </div>
+                                      <img
+                                        src="public/external/path97105-9da6.svg"
+                                        alt="Path97105"
+                                        class="info-path9"
+                                      />
+                                    </div>
+                                    <div class="info-group3">
+                                      <img
+                                        src="public/external/path107107-fd38.svg"
+                                        alt="Path107107"
+                                        class="info-path10"
+                                      />
+                                      <img
+                                        src="public/external/oval77108-n5bw.svg"
+                                        alt="Oval77108"
+                                        class="info-oval7"
+                                      />
+                                    </div>
+                                    <div class="info-group4">
+                                      <img
+                                        src="public/external/oval87110-dqm.svg"
+                                        alt="Oval87110"
+                                        class="info-oval8"
+                                      />
+                                      <img
+                                        src="public/external/path117111-3ij8.svg"
+                                        alt="Path117111"
+                                        class="info-path11"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <span class="info-text12"><span>Wind</span></span>
+                            </div>
+                            <span class="info-text14"><span></span></span>
+                          </div>
+                          <div class="info-four">
+                            <div class="info-group532">
+                              <img src="public/external/hail8132-hpne-200w.png" alt="Hail8132" class="info-hail"/>
+                              <span class="info-text16"><span>Feels Like</span></span>
+                              <span class="info-text18"><span></span></span>
+                            </div>
+                          </div>
+                          <div class="info-button">
+                            <img class="iconbottom" src="img/bookmark.png" id="bookmark" >
+                            <a href="./detail/index.html"><img class="iconbottom" src="img/more.png"></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

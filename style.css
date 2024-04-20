@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+}
+.web {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.web .overlap-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh ;
+}
+
+.web .overlap {
+  position: relative;
+  height: 100vh;
+}
+.web .line{
+  width: 30px;
+  height: 30px;
+}
+.web .navbar {
+  position: absolute;
+  width: 90%;
+  height: 79px;
+  top: 27px;
+  left: 130px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  z-index: 1000;
+}
+
+.web .more {
+  position: absolute;
+  width: 42px;
+  height: 28px;
+  top: 25px;
+  left: 38px;
+}
+.web .login {
+  position: absolute;
+  width: 42px;
+  height: 28px;
+  top: 25px;
+  left: 100px;
+}
+.web .user {
+  position: absolute;
+  width: 206px;
+  height: 65px;
+  left: 46%;
+  top: 5px;
+}
+
+.web .overlap-group {
+    position: relative;
+    width: 204px;
+    height: 65px;
+}
+
+.web .male-user {
+    position: absolute;
+    width: 75px;
+    height: 65px;
+    top: 0;
+    left: 0;
+}
+
+.web .text-wrapper {
+    position: absolute;
+    width: 152px;
+    top: 20px;
+    left: 52px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.info-container {
+    padding-left: 30px;
+    padding-top: 150px;
+    width: auto;
+    display: flex;
+    overflow: auto;
+    height: 95vh;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+  .info-info {
+    width: 457px;
+    height: 918px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: rgba(228, 172, 70, 1);
+    z-index: 1000;
+  }
+  .info-city-name {
+    top: 17px;
+    left: 71px;
+    width: 315px;
+    height: 78px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-text {
+    top: 32px;
+    left: 85px;
+    color: rgba(0, 0, 0, 1);
+    width: 229px;
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    font-style: Medium;
+    text-align: center;
+  }
+  .info-place-marker {
+    top: 0px;
+    left: 0px;
+    width: 86px;
+    height: 79px;
+    position: absolute;
+  }
+  .info-icon {
+    top: 120px;
+    left: 36px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  .info-text02 {
+    top: 220px;
+    left: 256px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    font-style: Extra Bold;
+    text-align: left;
+  }
+  .info-first {
+    top: 403px;
+    left: 37px;
+    width: 383px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group53 {
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-icon1 {
+    top: 0px;
+    left: 0px;
+    width: 44px;
+    height: 46px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .info-group {
+    top: 0px;
+    left: 0px;
+    width: 44px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .info-vector {
+    top: 2px;
+    left: 9px;
+    width: 26px;
+    height: 43px;
+    position: absolute;
+  }
+  .info-text04 {
+    top: 7px;
+    left: 53px;
+    color: rgba(255, 255, 255, 1);
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+  }
+  .info-text06 {
+    top: 4px;
+    left: 39%;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    font-size: 32px;
+    font-style: Medium;
+    text-align: center;
+  }
+  .info-third {
+    top: 624px;
+    left: 37px;
+    width: 383px;
+    height: 43px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group531 {
+    top: 0px;
+    left: 0px;
+    width: 220.08209228515625px;
+    height: 43px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-rain-sensor {
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 43px;
+    position: absolute;
+  }
+  .info-text08 {
+    top: 7px;
+    left: 53px;
+    color: rgba(255, 255, 255, 1);
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+  }
+  .info-text10 {
+    top: 4px;
+    left: 70%;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Medium;
+    text-align: center;
+  }
+  .info-second {
+    top: 514px;
+    left: 37px;
+    width: 383px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group54 {
+    top: 0px;
+    left: 0px;
+    width: 124px;
+    height: 46px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-frame {
+    top: 0px;
+    left: 0px;
+    width: 51px;
+    height: 46px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    border-color: rgba(0, 0, 0, 1);
+  }
+  .info-windy {
+    top: 6px;
+    left: 0px;
+    width: 42px;
+    height: 34px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group1 {
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 34px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group2 {
+    top: 0px;
+    left: 3px;
+    width: 24px;
+    height: 14px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group2 {
+    top: 0px;
+    left: 8px;
+    width: 16px;
+    height: 14px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-oval6 {
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 14px;
+    position: absolute;
+  }
+  .info-path9 {
+    top: 14px;
+    left: 2px;
+    width: 16px;
+    height: 1px;
+    position: absolute;
+  }
+  .info-group3 {
+    top: 25px;
+    left: 5px;
+    width: 27px;
+    height: 8px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-path10 {
+    top: 0px;
+    left: 0px;
+    width: 23px;
+    height: 1px;
+    position: absolute;
+  }
+  .info-oval7 {
+    top: 0px;
+    left: 17px;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+  }
+  .info-group4 {
+    top: 5.75px;
+    left: -2px;
+    width: 42px;
+    height: 14px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-oval8 {
+    top: 0px;
+    left: 32px;
+    width: 10px;
+    height: 14px;
+    position: absolute;
+  }
+  .info-path11 {
+    top: 14px;
+    left: -6px;
+    width: 34px;
+    height: 1px;
+    position: absolute;
+  }
+  .info-text12 {
+    top: 8px;
+    left: 51px;
+    color: rgba(255, 255, 255, 1);
+    width: 72px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+  }
+  .info-text14 {
+    top: 14px;
+    left: 60%;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    font-size: 32px;
+    font-style: Medium;
+    text-align: left;
+  }
+  .info-four {
+    top: 726px;
+    left: 36px;
+    width: 386px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-group532 {
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .info-hail {
+    top: 0px;
+    left: 0px;
+    width: 43px;
+    height: 56px;
+    position: absolute;
+  }
+  .info-text16 {
+    top: 7px;
+    left: 53px;
+    color: rgba(255, 255, 255, 1);
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+  }
+  .info-text18 {
+    top: 4px;
+    left: 100%;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 32px;
+    font-style: Medium;
+    text-align: center;
+    width: fit-content;
+  }
+
+  .iconbottom{
+    margin-left: 70px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .info-button {
+    top: 825px;
+    left: 60px;
+    width: 386px;
+    height: 56px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+  }

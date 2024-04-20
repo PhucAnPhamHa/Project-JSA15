@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="http://openweathermap.org/img/wn/10d@2x.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="root">
+        <div class="container">
+            <div class="main-section">
+                <div class="search-bar">
+                </div>
+                <div class="info-wrapper">
+                    <div class="de-city-name" id="tentp">__</div>
+                    <div class="de-weather-state" id="trangthai">__</div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="de-weather-icon" id="icontt">
+                    <div class="de-temperature" id="nhietdo">__</div>
+                </div>
+            </div>
+            <div class="additional-section">
+                <div class="row">
+                    <div class="item">
+                        <div class="label">Độ ẩm</div>
+                        <div class="value"><span class="de-humidity" id="doam">__</span>%</div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Gió</div>
+                        <div class="value"><span class="de-wind-speed" id="tdgio">__</span>km/h</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../app.js"></script>
+    <script>
+        console.log(0);
+        window.addEventListener('storage',(e)=>{
+            if (e.key === 'deData') {
+                const newData = JSON.parse(e.newValue);
+                console.log(newData[0]);
+            }
+        })
+        const Data = JSON.parse(localStorage.getItem('deData'));
+        console.log(Data);
+        document.getElementById('tentp').innerHTML = Data[0].ten;
+        document.getElementById('trangthai').innerHTML = Data[0].mota;
+        document.getElementById('nhietdo').innerHTML = Data[0].nhiet;
+        document.getElementById('doam').innerHTML = Data[0].doam;
+        document.getElementById('tdgio').innerHTML = Data[0].gio;
+        document.getElementById('icontt').src = Data[0].icon;
+
+    </script>
+</body>
+
+</html>
